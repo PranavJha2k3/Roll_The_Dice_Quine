@@ -1,0 +1,86 @@
+body {
+    background-color: #e0e9ec;
+    font-family: "Viaoda Libre", cursive;
+    overflow: hidden;
+  }
+  
+  .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  }
+  
+  h1 {
+    margin: 30px;
+    text-shadow: 5px 0 #191c20;
+    font-size: 8rem;
+    color: #1c0553;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #eb2950;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  button {
+    width: 10%;
+    height: 3rem;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 20rem;
+    background-color: #ebde29;
+    text-transform: uppercase;
+  }
+  
+
+  .shepherd-button {
+    width: 25%;
+    height: 3rem;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 50rem;
+    background-color: #000000;
+    text-transform: uppercase;
+  }
+
+  
+  footer {
+    color: #eeeeee;
+    text-align: center;
+  }
+  
+  .image360 {
+    animation-name: spin;
+    animation-duration: 1s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .reset-animation {
+    animation: none !important;
+  }
+  
